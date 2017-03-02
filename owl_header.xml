@@ -1,0 +1,14 @@
+<rdf:RDF
+  xmls:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmls:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmls:owl="http://www.w3.org/2002/07/owl#"
+  xmls:dc="http://purl.org/dc/elements/1.1/">
+
+  <owl:Ontology rdf:about="http://www.linkeddatatools.com/plants">
+    <dc:title>The LinkedDataTools.com Example Plant Ontology</rdf:title>
+    <dc:description>An example ontology written for the LinkedDataTools.com RDFS
+     & OWL introduction tutorial</dc:description>
+    <!-- Remainder Of Document Omitted For Brevity... -->
+  </owl:Ontology>
+
+</rdf:RDF>
