@@ -1,0 +1,17 @@
+<rdf:RDF xmls:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmls:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmls:owl="http://www.w3.org/2002/07/owl#"
+  xmls:dc="http://purl.org/dc/elements/1.1/"
+  xmls:plants="http://www.linkeddatatools.com/plants#">
+
+  <!-- OWL Header Omitted For Brevity -->
+  <!-- OWL Classes Omitted For Brevity -->
+  <!-- Define the family property -->
+  <owl:Property rdf:about="http://www.linkeddatatools.com/plants#family"/>
+
+  <rdf:Description rdf:about="http://www.linkeddatatools.com/plants#magnolia">
+    <rdf:type rdf:about="http://www.linkeddatatools.com/plants#flowers"/>
+    <plants:family>Magnoliaceae</plants:family>
+  </rdf:Description>
+
+</rdf:RDF>

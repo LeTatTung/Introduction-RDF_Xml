@@ -1,0 +1,20 @@
+<rdf:RDF
+  xmls:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmls:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmls:owl="http://www.w3.org/2002/07/owl#"
+  xmls:dc="http://purl.org/dc/elements/1.1/">
+
+  <!-- OWL Header Example -->
+  <owl:Ontology rdf:about="http://www.linkeddatatools.com/plants">
+    <dc:title>Introducing RDFS/owl</dc:title>
+    <dc:description>An example ontology written for the LinkedDataTools.com RDFS
+      & OWL introduction tutorial</dc:description>
+  </owl:Ontology>
+
+  <!-- OWL Class Definition Example -->
+  <owl:Class rdf:about="http://www.linkeddatatools.com/plants#planttype">
+    <rdfs:label>The plant type</rdfs:label>
+    <rdfs:comment>The class of plant types.</rdfs:comment>
+  </owl:Class>
+
+</rdf:RDF>
