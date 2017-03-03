@@ -1,0 +1,4 @@
+PREFIX plants: <http://www.linkeddatatools.com/plants>
+SELECT * WHERE {
+  ?name plants:family ?family
+}
