@@ -1,0 +1,6 @@
+PREFIX plant: <http://www.linkeddatatools.com/plants>
+FROM <http://www.linkeddatatools.com/plantsdata/plants.rdf>
+SELECT ?name WHERE {
+  ?planttype plant:planttype ?name
+}
+ORDER BY ?name
